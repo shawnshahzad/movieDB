@@ -1,0 +1,121 @@
+/* Banner at top of screen */
+.banner {
+  	text-align: center;
+ 	color: black;
+  	font-size: 20px;
+ 	height: 100px;
+ 	border: 5px solid black;
+}
+
+.navigationMenu {
+
+}
+
+/* Each Box of the Navigation Menu */
+.navigationMenu a {
+ 	float: left;
+  	color: black;
+  	text-align: center;
+ 	width: 33.33%;
+  	padding: 15px 0px;
+  	font-size: 20px;
+ 	text-decoration:none;
+}
+
+/* Highlighting each navigation menu box when mouse is over it */
+.navigationMenu a:hover {
+	background-color: black;
+ 	color: white;
+	transition: 1s ease;
+}
+ 
+ /* Current Page's Box in the Navigation Menu */
+.navigationMenu a.activeNav {
+  	background-color: grey;
+  	color: white;
+}
+
+.searchForm {
+	border: 5px solid black;
+	background-color: lightgrey;
+}
+
+.searchForm h2 {
+	text-indent: 2%;
+}
+
+.searchForm a {
+	position: relative;
+	left: 5%;
+}
+
+.searchForm form {
+	text-align: center;
+	position: relative;
+	left: 5%;
+}
+
+.searchTable td {
+	width: 20%;
+}
+
+.viewSearchTable table {
+	position: relative;
+	left: 5%;
+	background-color: white;
+	width: 90%;
+}	
+
+.viewSearchTable table, .viewSearchTable th, .viewSearchTable td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.manageForm {
+	border: 5px solid black;
+	background-color: lightgrey;
+	width: 40%;
+	margin: auto;
+}
+
+.manageForm form {
+	text-align: center;
+}
+
+.manageForm label {
+	display: inline-block;
+	width: 25%;
+	text-align: right;
+}
+
+.manageForm h2 {
+	text-align: center;
+}
+
+.viewTable {
+	border: 5px solid black;
+	background-color: lightgrey;
+}
+
+.viewTable h2 {
+	position: relative;
+	left: 5%;
+}
+
+.viewTable table {
+	position: relative;
+	left: 5%;
+	background-color: white;
+	width: 90%;
+}	
+
+.viewTable table, .viewTable th, .viewTable td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.viewTable a {
+	position: relative;
+	left: 5%;
+}
+
